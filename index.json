@@ -1,0 +1,377 @@
+{
+  "schema": 1,
+  "updated": "2026-11-06",
+  "release_base": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins",
+  "plugins": [
+    {
+      "id": "minnion_lights",
+      "name": "Case Lights",
+      "version": "0.4.1",
+      "api": 2,
+      "category": "work",
+      "official": true,
+      "author": "Minniondeck",
+      "color": "coral",
+      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icon.png",
+      "summary": "Finds out why your PC's case lights act up, and sets them for you.",
+      "about": "Checks the PC's lighting every 5 minutes and when you ask: what changed the lights, which apps fight over them, and how to fix it. Turns the lights on, off or to a colour from your keys, and can follow the colours on your screen.",
+      "shots": [
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-ok.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-warn.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-problem.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-check.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-log.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-report.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-timeline.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-back.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-fix.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-fixed.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-fixing.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-blue-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-blue.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-cyan-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-cyan.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-green-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-green.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-off-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-orange-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-orange.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-pink-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-pink.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-purple-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-purple.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-red-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-red.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-white-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-white.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-yellow-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-yellow.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-screen.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-screen-on.png"
+      ],
+      "actions": [
+        "Lights status",
+        "Lights acted up",
+        "Set the lights",
+        "Screen sync",
+        "Fix a lights issue",
+        "Lights report",
+        "Lights timeline"
+      ],
+      "settings": [
+        "How far back to look",
+        "Watch the lighting controller",
+        "Keep the lights as I set them",
+        "Clear my logged moments"
+      ],
+      "needs": [
+        "A board with RGB lighting (MSI Mystic Light is supported best)"
+      ],
+      "file": "minnion_lights-0.4.1.mdplugin",
+      "size": 279389,
+      "sha256": "b80f3b2d2177366578f0fb6c43008e69d8b6e5b07e01629f6df2208ef8550a99",
+      "versions": [
+        {
+          "v": "0.4.1",
+          "size": 279389,
+          "sha256": "b80f3b2d2177366578f0fb6c43008e69d8b6e5b07e01629f6df2208ef8550a99"
+        }
+      ],
+      "profile": {
+        "name": "Case Lights",
+        "file": "Case-Lights.mdprofile",
+        "pages": 5,
+        "size": 11055,
+        "sha256": "3cb000424201872497515955479e363a64f3422a2fe1665bbda4952482a4c414"
+      }
+    },
+    {
+      "id": "minnion_soundboard",
+      "name": "Soundboard",
+      "version": "0.1.0",
+      "api": 2,
+      "category": "general",
+      "official": true,
+      "author": "Minniondeck",
+      "color": "peach",
+      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_soundboard/icon.png",
+      "summary": "Play sound files from your keys.",
+      "about": "Each key plays an MP3, WAV, WMA or M4A file at its own volume. Press again to stop it or start it over, and one key stops everything. Uses Windows' own player, so nothing else is needed.",
+      "shots": [
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_soundboard/icons/sound.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_soundboard/icons/stop.png"
+      ],
+      "actions": [
+        "Play a sound",
+        "Stop all sounds"
+      ],
+      "settings": [],
+      "needs": [
+        "Your own sound files"
+      ],
+      "file": "minnion_soundboard-0.1.0.mdplugin",
+      "size": 169564,
+      "sha256": "390fb08ba10bba1ca3484b297b6add1afd2e88ebb1494a01a8de41d829badf25",
+      "versions": [
+        {
+          "v": "0.1.0",
+          "size": 169564,
+          "sha256": "390fb08ba10bba1ca3484b297b6add1afd2e88ebb1494a01a8de41d829badf25"
+        }
+      ],
+      "profile": {
+        "name": "Soundboard",
+        "file": "Soundboard.mdprofile",
+        "pages": 1,
+        "size": 4272,
+        "sha256": "b6783ad729a650faf7b97136291d92dd9363b1a532042a726f750767bba7ea3f"
+      }
+    },
+    {
+      "id": "minnion_speech",
+      "name": "Speech",
+      "version": "0.1.0",
+      "api": 2,
+      "category": "streaming",
+      "official": true,
+      "author": "Minniondeck",
+      "color": "lilac",
+      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_speech/icon.png",
+      "summary": "Reads text aloud with 37 natural US and UK voices, on this PC.",
+      "about": "A key that speaks: type what it should say, pick a voice, press. The voices run on this PC, so nothing is sent anywhere and it works offline.",
+      "shots": [
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_speech/icons/speak.png"
+      ],
+      "actions": [
+        "Speak"
+      ],
+      "settings": [],
+      "needs": [
+        "About 200 MB of disk space for the voices"
+      ],
+      "file": "minnion_speech-0.1.0.mdplugin",
+      "size": 63670598,
+      "sha256": "ad1f6dc1d725ef58438e04b5429ea9da954325334c707d9e93fbcd9db9e45cea",
+      "versions": [
+        {
+          "v": "0.1.0",
+          "size": 63670598,
+          "sha256": "ad1f6dc1d725ef58438e04b5429ea9da954325334c707d9e93fbcd9db9e45cea"
+        }
+      ]
+    },
+    {
+      "id": "minnion_spotify",
+      "name": "Spotify",
+      "version": "0.1.0",
+      "api": 2,
+      "category": "general",
+      "official": true,
+      "author": "Minniondeck",
+      "color": "mint",
+      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icon.png",
+      "summary": "Play, skip, like, volume and now playing.",
+      "about": "Controls Spotify from your deck and shows what's playing on a key. You sign in once in your browser and MinnionDeck keeps you signed in.",
+      "shots": [
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-now.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-prev.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-next.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-play.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-pause.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-like-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-like-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-volume.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-knob.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-library.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_spotify/icons/sp-list.png"
+      ],
+      "actions": [
+        "Now playing",
+        "Previous song",
+        "Next song",
+        "Play or pause",
+        "Like the song",
+        "Spotify volume",
+        "Spotify library"
+      ],
+      "settings": [
+        "Spotify Client ID",
+        "Sign in",
+        "Log out"
+      ],
+      "needs": [
+        "A Spotify account",
+        "Your own Client ID from developer.spotify.com (free, takes a minute)"
+      ],
+      "file": "minnion_spotify-0.1.0.mdplugin",
+      "size": 1252318,
+      "sha256": "1e0256d787baff58b847a7bf52f047812b8fbbcad9685c2a52eae503a28fa0db",
+      "versions": [
+        {
+          "v": "0.1.0",
+          "size": 1252318,
+          "sha256": "1e0256d787baff58b847a7bf52f047812b8fbbcad9685c2a52eae503a28fa0db"
+        }
+      ],
+      "profile": {
+        "name": "Spotify",
+        "file": "Spotify.mdprofile",
+        "pages": 2,
+        "size": 3754,
+        "sha256": "41e3bfede689bff3e12295e0795f398d83e8f58d2ff3604c04c7ec1d961f67fe"
+      }
+    },
+    {
+      "id": "minnion_sysmon",
+      "name": "System Monitor",
+      "version": "0.2.0",
+      "api": 2,
+      "category": "general",
+      "official": true,
+      "author": "Minniondeck",
+      "color": "sky",
+      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_sysmon/icon.png",
+      "summary": "CPU, GPU, memory, disk, network and the busiest app, live.",
+      "about": "Shows how busy your PC is, right on your keys, read straight from Windows: CPU, GPU and memory use, free disk space, network speed, and the app using the most CPU, memory or GPU right now. Press a key to open Task Manager, or a disk key to open that drive.",
+      "shots": [
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_sysmon/icons/cpu.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_sysmon/icons/ram.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_sysmon/icons/disk.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_sysmon/icons/net.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_sysmon/icons/gpu.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_sysmon/icons/top.png"
+      ],
+      "actions": [
+        "CPU use",
+        "Memory use",
+        "Disk space",
+        "Network speed",
+        "GPU use",
+        "Top app"
+      ],
+      "settings": [],
+      "needs": [],
+      "file": "minnion_sysmon-0.2.0.mdplugin",
+      "size": 176545,
+      "sha256": "ab7979210a9a946681c4bc51b4d90fd65e418ca414e4e8726a48084cbbe7e19d",
+      "versions": [
+        {
+          "v": "0.2.0",
+          "size": 176545,
+          "sha256": "ab7979210a9a946681c4bc51b4d90fd65e418ca414e4e8726a48084cbbe7e19d"
+        }
+      ],
+      "profile": {
+        "name": "System Monitor",
+        "file": "System-Monitor.mdprofile",
+        "pages": 1,
+        "size": 2750,
+        "sha256": "1206637a0caf98c969a8d954ca0f3692540aaaacb95da837c98897495dfd6645"
+      }
+    },
+    {
+      "id": "minnion_timer",
+      "name": "Timer",
+      "version": "0.1.0",
+      "api": 2,
+      "category": "general",
+      "official": true,
+      "author": "Minniondeck",
+      "color": "sun",
+      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_timer/icon.png",
+      "summary": "Countdowns, a stopwatch, a focus timer and a clock.",
+      "about": "Live timers on your keys. Press to start or pause, hold to reset. The focus timer (Pomodoro) switches between focus and breaks by itself, and a finished timer beeps and pops up a message.",
+      "shots": [
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_timer/icons/countdown.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_timer/icons/stopwatch.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_timer/icons/focus.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_timer/icons/clock.png"
+      ],
+      "actions": [
+        "Countdown",
+        "Stopwatch",
+        "Focus timer (Pomodoro)",
+        "Clock"
+      ],
+      "settings": [
+        "Beep when a timer ends"
+      ],
+      "needs": [],
+      "file": "minnion_timer-0.1.0.mdplugin",
+      "size": 161889,
+      "sha256": "6ade48e72cffdb6f6dabfa8b716b478681fb732492a5e260d0fdcf91204ece91",
+      "versions": [
+        {
+          "v": "0.1.0",
+          "size": 161889,
+          "sha256": "6ade48e72cffdb6f6dabfa8b716b478681fb732492a5e260d0fdcf91204ece91"
+        }
+      ],
+      "profile": {
+        "name": "Timer",
+        "file": "Timer.mdprofile",
+        "pages": 1,
+        "size": 3392,
+        "sha256": "058c89021edc09fcb724db0aa4290210c0597113a38f8c86a7af26b23ac7ed06"
+      }
+    },
+    {
+      "id": "minnion_weather",
+      "name": "Weather",
+      "version": "0.2.0",
+      "api": 2,
+      "category": "general",
+      "official": true,
+      "author": "Minniondeck",
+      "color": "lilac",
+      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icon.png",
+      "summary": "The weather now, highs and lows, rain, wind, air quality and more.",
+      "about": "The weather for your home town (or any town) on your keys: now with a matching picture, today's high and low, feels like, chance of rain, humidity, wind, air quality, tomorrow, and the next sunrise or sunset. Updated every 15 minutes; press a key to hear it in full. Weather data by Open-Meteo.com, free and with no account.",
+      "shots": [
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/weather.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/sun.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/cloud.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/rain.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/snow.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/storm.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/fog.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/thermo.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/umbrella.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/drop.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/wind.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/leaf.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/sunrise.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_weather/icons/sunset.png"
+      ],
+      "actions": [
+        "Current weather",
+        "Weather detail"
+      ],
+      "settings": [
+        "Home town",
+        "Units"
+      ],
+      "needs": [
+        "An internet connection"
+      ],
+      "file": "minnion_weather-0.2.0.mdplugin",
+      "size": 1036845,
+      "sha256": "dfc21fd8e2ca236d4749c7b5ab55d39fdd0610f458376a72e0011d05be8c2e73",
+      "versions": [
+        {
+          "v": "0.2.0",
+          "size": 1036845,
+          "sha256": "dfc21fd8e2ca236d4749c7b5ab55d39fdd0610f458376a72e0011d05be8c2e73"
+        }
+      ],
+      "profile": {
+        "name": "Weather",
+        "file": "Weather.mdprofile",
+        "pages": 1,
+        "size": 3012,
+        "sha256": "4d34283cea790b1b648fb76818ee1d33946bface8cf4c260ed3ef4d71387a296"
+      }
+    }
+  ]
+}
