@@ -17,8 +17,15 @@ The plugins for [MinnionDeck](https://github.com/minnnion/MinnionDeck). The app'
 - In MinnionDeck, open **Marketplace** and press **Install**. Its profile is added as a new profile with its pages.
 - Or tick it in the [MinnionDeck setup](https://github.com/minnnion/MinnionDeck/releases/latest) when you install the app.
 
-Every plugin is signed, and the app checks each download against the SHA-256 in  before it installs.
+Every plugin is signed, and the app checks each download against the SHA-256 in `index.json` before it installs.
 
 ## What's in here
 
-\
+```
+index.json                      the list the app reads: names, versions, sizes, SHA-256, profiles
+plugins/<id>/
+  <id>-<version>.mdplugin       the plugin
+  <Name>.mdprofile              its ready-made profile (pages and buttons)
+  icon.png, icons/              its pictures
+  README.md                     what it does, its actions and settings
+```
