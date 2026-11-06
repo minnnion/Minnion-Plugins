@@ -4,89 +4,6 @@
   "release_base": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins",
   "plugins": [
     {
-      "id": "minnion_lights",
-      "name": "Case Lights",
-      "version": "0.4.1",
-      "api": 2,
-      "category": "work",
-      "official": true,
-      "author": "Minniondeck",
-      "color": "coral",
-      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icon.png",
-      "summary": "Finds out why your PC's case lights act up, and sets them for you.",
-      "about": "Checks the PC's lighting every 5 minutes and when you ask: what changed the lights, which apps fight over them, and how to fix it. Turns the lights on, off or to a colour from your keys, and can follow the colours on your screen.",
-      "shots": [
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-ok.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-warn.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-problem.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-check.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-log.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-report.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-timeline.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-back.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-fix.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-fixed.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-fixing.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-blue-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-blue.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-cyan-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-cyan.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-green-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-green.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-off-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-off.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-orange-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-orange.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-pink-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-pink.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-purple-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-purple.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-red-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-red.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-white-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-white.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-yellow-on.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-c-yellow.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-screen.png",
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_lights/icons/lt-screen-on.png"
-      ],
-      "actions": [
-        "Lights status",
-        "Lights acted up",
-        "Set the lights",
-        "Screen sync",
-        "Fix a lights issue",
-        "Lights report",
-        "Lights timeline"
-      ],
-      "settings": [
-        "How far back to look",
-        "Watch the lighting controller",
-        "Keep the lights as I set them",
-        "Clear my logged moments"
-      ],
-      "needs": [
-        "A board with RGB lighting (MSI Mystic Light is supported best)"
-      ],
-      "file": "minnion_lights-0.4.1.mdplugin",
-      "size": 279389,
-      "sha256": "b80f3b2d2177366578f0fb6c43008e69d8b6e5b07e01629f6df2208ef8550a99",
-      "versions": [
-        {
-          "v": "0.4.1",
-          "size": 279389,
-          "sha256": "b80f3b2d2177366578f0fb6c43008e69d8b6e5b07e01629f6df2208ef8550a99"
-        }
-      ],
-      "profile": {
-        "name": "Case Lights",
-        "file": "Case-Lights.mdprofile",
-        "pages": 5,
-        "size": 11055,
-        "sha256": "3cb000424201872497515955479e363a64f3422a2fe1665bbda4952482a4c414"
-      }
-    },
-    {
       "id": "minnion_soundboard",
       "name": "Soundboard",
       "version": "0.1.0",
@@ -127,39 +44,6 @@
         "size": 4272,
         "sha256": "b6783ad729a650faf7b97136291d92dd9363b1a532042a726f750767bba7ea3f"
       }
-    },
-    {
-      "id": "minnion_speech",
-      "name": "Speech",
-      "version": "0.1.0",
-      "api": 2,
-      "category": "streaming",
-      "official": true,
-      "author": "Minniondeck",
-      "color": "lilac",
-      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_speech/icon.png",
-      "summary": "Reads text aloud with 37 natural US and UK voices, on this PC.",
-      "about": "A key that speaks: type what it should say, pick a voice, press. The voices run on this PC, so nothing is sent anywhere and it works offline.",
-      "shots": [
-        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_speech/icons/speak.png"
-      ],
-      "actions": [
-        "Speak"
-      ],
-      "settings": [],
-      "needs": [
-        "About 200 MB of disk space for the voices"
-      ],
-      "file": "minnion_speech-0.1.0.mdplugin",
-      "size": 63670598,
-      "sha256": "ad1f6dc1d725ef58438e04b5429ea9da954325334c707d9e93fbcd9db9e45cea",
-      "versions": [
-        {
-          "v": "0.1.0",
-          "size": 63670598,
-          "sha256": "ad1f6dc1d725ef58438e04b5429ea9da954325334c707d9e93fbcd9db9e45cea"
-        }
-      ]
     },
     {
       "id": "minnion_spotify",
