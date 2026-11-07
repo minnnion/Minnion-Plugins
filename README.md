@@ -81,6 +81,8 @@ Controls Spotify from your deck and shows what's playing on a key. You sign in o
 
 ### Discord
 
+<img src="docs/discord.png" alt="The Discord profile" width="720">
+
 Controls Discord's voice from your deck, and each key shows Discord's live state: mute your mic, deafen, turn your camera on or off, share your screen, switch push to talk and voice activity, and leave the call. Keep Discord open. The first time, Discord asks you to **Authorize** MinnionDeck; after that it connects by itself.
 
 - **Buttons:** Mute mic, Deafen, Camera, Screen share, Push to talk, Leave call
