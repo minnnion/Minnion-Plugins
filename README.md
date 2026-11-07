@@ -26,7 +26,7 @@ Each one adds a set of ready-to-use buttons to your deck, with a profile that's 
 | <img src="plugins/minnion_sysmon/icon.png" width="32"> | **[System Monitor](#system-monitor)** | CPU, GPU, memory, disk, network and the busiest app, live. | 0.2.0 | 172 KB |
 | <img src="plugins/minnion_soundboard/icon.png" width="32"> | **[Soundboard](#soundboard)** | Play sound files from your keys. | 0.1.0 | 165 KB |
 | <img src="plugins/minnion_spotify/icon.png" width="32"> | **[Spotify](#spotify)** | Play, skip, like, volume and what's playing. | 0.1.0 | 1.2 MB |
-| <img src="plugins/minnion_discord/icon.png" width="32"> | **[Discord](#discord)** | Mute, deafen, camera, screen share, push to talk and leave call, live. | 0.5.0 | 1.0 MB |
+| <img src="plugins/minnion_discord/icon.png" width="32"> | **[Discord](#discord)** | Mute, deafen, camera, screen share, push to talk and leave call, live. | 0.1.0 | 1.0 MB |
 
 Every plugin comes with its own profile, so the buttons are on your deck the moment it's installed.
 

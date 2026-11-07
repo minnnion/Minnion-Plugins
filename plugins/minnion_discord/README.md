@@ -6,11 +6,11 @@ Controls Discord's voice from your deck, and each key shows Discord's live state
 
 | | |
 |---|---|
-| **Version** | 0.5.0 |
+| **Version** | 0.1.0 |
 | **Category** | streaming |
 | **Author** | Minniondeck (signed by minnion) |
-| **File** | `minnion_discord-0.5.0.mdplugin` (1010 KB) |
-| **SHA-256** | `d4961d082904e4f4533104ab5ce61a35583a2e2f5422df335652357931bbcd2f` |
+| **File** | `minnion_discord-0.1.0.mdplugin` (1010 KB) |
+| **SHA-256** | `c5041beca8592ab9ad8213c2174fb3df5da7a6ec03bd4f7f9654ac781a09b7fc` |
 | **Profile** | `Discord.mdprofile` (1 page) |
 
 ## Install
