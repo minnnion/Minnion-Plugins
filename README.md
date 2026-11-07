@@ -7,7 +7,7 @@
 **The official plugins for [MinnionDeck](https://github.com/minnnion/MinnionDeck).**
 Each one adds a set of ready-to-use buttons to your deck, with a profile that's set up for you.
 
-![Plugins](https://img.shields.io/badge/plugins-5-5fd0a8)
+![Plugins](https://img.shields.io/badge/plugins-6-5fd0a8)
 ![Signed](https://img.shields.io/badge/every%20plugin-signed-7cc4ff)
 ![Checked](https://img.shields.io/badge/downloads-SHA--256%20checked-b79cff)
 
@@ -26,6 +26,7 @@ Each one adds a set of ready-to-use buttons to your deck, with a profile that's 
 | <img src="plugins/minnion_sysmon/icon.png" width="32"> | **[System Monitor](#system-monitor)** | CPU, GPU, memory, disk, network and the busiest app, live. | 0.2.0 | 172 KB |
 | <img src="plugins/minnion_soundboard/icon.png" width="32"> | **[Soundboard](#soundboard)** | Play sound files from your keys. | 0.1.0 | 165 KB |
 | <img src="plugins/minnion_spotify/icon.png" width="32"> | **[Spotify](#spotify)** | Play, skip, like, volume and what's playing. | 0.1.0 | 1.2 MB |
+| <img src="plugins/minnion_discord/icon.png" width="32"> | **[Discord](#discord)** | Mute, deafen, camera, screen share, push to talk and leave call, live. | 0.5.0 | 1.0 MB |
 
 Every plugin comes with its own profile, so the buttons are on your deck the moment it's installed.
 
@@ -77,6 +78,15 @@ Controls Spotify from your deck and shows what's playing on a key. You sign in o
 - **Buttons:** Now playing, Previous song, Next song, Play or pause, Like the song, Spotify volume, Spotify library
 - **Settings:** Spotify Client ID, Sign in, Log out
 - **You need:** a Spotify account, and your own Client ID from [developer.spotify.com](https://developer.spotify.com) (free, takes a minute)
+
+### Discord
+
+Controls Discord's voice from your deck, and each key shows Discord's live state: mute your mic, deafen, turn your camera on or off, share your screen, switch push to talk and voice activity, and leave the call. Keep Discord open. The first time, Discord asks you to **Authorize** MinnionDeck; after that it connects by itself.
+
+- **Buttons:** Mute mic, Deafen, Camera, Screen share, Push to talk, Leave call
+- **Settings:** Connect, Disconnect
+- **Profile:** one page with all six buttons, in Discord's colours
+- **You need:** the Discord app, open on this PC
 
 ---
 

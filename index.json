@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "release_base": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins",
   "plugins": [
     {
@@ -198,6 +198,64 @@
         "pages": 1,
         "size": 3392,
         "sha256": "058c89021edc09fcb724db0aa4290210c0597113a38f8c86a7af26b23ac7ed06"
+      }
+    },
+    {
+      "id": "minnion_discord",
+      "name": "Discord",
+      "version": "0.5.0",
+      "api": 2,
+      "category": "streaming",
+      "official": true,
+      "author": "Minniondeck",
+      "color": "lilac",
+      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icon.png",
+      "summary": "Mute, deafen, camera, screen share, push to talk and leave call, live.",
+      "about": "Controls Discord's voice from your deck, and each key shows Discord's live state: mute your mic, deafen, turn your camera on or off, share your screen, switch push to talk and voice activity, and leave the call. Keep Discord open; the first time, Discord asks you to Authorize MinnionDeck, and after that it connects by itself.",
+      "shots": [
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-cam-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-cam-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-head-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-head-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-leave.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-mic-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-mic-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-ptt.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-screen-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-screen-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_discord/icons/dc-va.png"
+      ],
+      "actions": [
+        "Mute mic",
+        "Deafen",
+        "Camera",
+        "Screen share",
+        "Leave call",
+        "Push to talk"
+      ],
+      "settings": [
+        "Connect",
+        "Disconnect"
+      ],
+      "needs": [
+        "The Discord app, open on this PC"
+      ],
+      "file": "minnion_discord-0.5.0.mdplugin",
+      "size": 1033868,
+      "sha256": "d4961d082904e4f4533104ab5ce61a35583a2e2f5422df335652357931bbcd2f",
+      "versions": [
+        {
+          "v": "0.5.0",
+          "size": 1033868,
+          "sha256": "d4961d082904e4f4533104ab5ce61a35583a2e2f5422df335652357931bbcd2f"
+        }
+      ],
+      "profile": {
+        "name": "Discord",
+        "file": "Discord.mdprofile",
+        "pages": 1,
+        "size": 3433,
+        "sha256": "1a3a40cb126bf22214424eae4303789362e0f5d3048e497e7b0b86cf82906da3"
       }
     },
     {
