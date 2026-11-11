@@ -7,7 +7,7 @@
 **The official plugins for [MinnionDeck](https://github.com/minnnion/MinnionDeck).**
 Each one adds a set of ready-to-use buttons to your deck, with a profile that's set up for you.
 
-![Plugins](https://img.shields.io/badge/plugins-6-5fd0a8)
+![Plugins](https://img.shields.io/badge/plugins-7-5fd0a8)
 ![Signed](https://img.shields.io/badge/every%20plugin-signed-7cc4ff)
 ![Checked](https://img.shields.io/badge/downloads-SHA--256%20checked-b79cff)
 
@@ -27,6 +27,7 @@ Each one adds a set of ready-to-use buttons to your deck, with a profile that's 
 | <img src="plugins/minnion_soundboard/icon.png" width="32"> | **[Soundboard](#soundboard)** | Play sound files from your keys. | 0.1.0 | 165 KB |
 | <img src="plugins/minnion_spotify/icon.png" width="32"> | **[Spotify](#spotify)** | Play, skip, like, volume and what's playing. | 0.1.0 | 1.2 MB |
 | <img src="plugins/minnion_discord/icon.png" width="32"> | **[Discord](#discord)** | Mute, deafen, camera, screen share, push to talk and leave call, live. | 0.1.0 | 1.0 MB |
+| <img src="plugins/minnion_streaming/icon.png" width="32"> | **[Streaming](#streaming)** | OBS Studio, Twitch and YouTube chat on your keys, live. | 0.2.0 | 1.4 MB |
 
 Every plugin comes with its own profile, so the buttons are on your deck the moment it's installed.
 
@@ -89,6 +90,15 @@ Controls Discord's voice from your deck, and each key shows Discord's live state
 - **Settings:** Connect, Disconnect
 - **Profile:** one page with all six buttons, in Discord's colours
 - **You need:** the Discord app, open on this PC
+
+### Streaming
+
+Go live, record, switch scenes, mute sources and save replays in OBS, with each key showing OBS's live state. With OBS on this PC there's nothing to type: tick **Enable WebSocket server** in OBS (Tools › WebSocket Server Settings) and it connects by itself. Sign in to Twitch once for viewers, followers, chat, clips, markers, ads and chat modes. Type your YouTube @handle to read your live chat, with no sign-in. Set up only the ones you use.
+
+- **Buttons:** Go live, Record, Pause recording, Switch scene, Mute a source, Show or hide a source, Replay buffer, Save replay, Viewers, Followers, Live chat, Make a clip, Stream marker, Run an ad, Slow mode, Emote-only chat, Send a chat message, Set stream title, YouTube Live chat
+- **Settings:** Check OBS, Sign in to Twitch, Check YouTube chat, YouTube channel, Twitch chat to show
+- **Profile:** a page each for OBS, Twitch and YouTube; pick the ones you use
+- **You need:** OBS Studio 28 or newer for the OBS keys, and a Twitch account for the Twitch keys
 
 ---
 

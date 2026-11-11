@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-11",
   "release_base": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins",
   "plugins": [
     {
@@ -256,6 +256,113 @@
         "pages": 1,
         "size": 3433,
         "sha256": "1a3a40cb126bf22214424eae4303789362e0f5d3048e497e7b0b86cf82906da3"
+      }
+    },
+    {
+      "id": "minnion_streaming",
+      "name": "Streaming",
+      "version": "0.2.0",
+      "api": 2,
+      "category": "streaming",
+      "official": true,
+      "author": "Minniondeck",
+      "color": "lilac",
+      "icon": "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icon.png",
+      "summary": "OBS Studio, Twitch and YouTube chat on your keys, live.",
+      "about": "Go live, record, switch scenes, mute sources and save replays in OBS, with each key showing OBS's live state. With OBS on this PC there's nothing to type: tick Enable WebSocket server in OBS and it connects by itself. Sign in to Twitch once for viewers, followers, chat, clips, markers, ads and chat modes. Type your YouTube @handle to read your live chat, with no sign-in. Set up only the ones you use.",
+      "shots": [
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-ad.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-chat.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-clip.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-emote.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-eye-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-eye-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-heart.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-live-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-live-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-marker.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-mic-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-mic-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-pause.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-rec-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-rec-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-replay-off.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-replay-on.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-save.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-say.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-scene.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-slow.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-title.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-viewers.png",
+        "https://raw.githubusercontent.com/minnnion/Minnion-Plugins/main/plugins/minnion_streaming/icons/st-yt-chat.png"
+      ],
+      "actions": [
+        "Go live",
+        "Record",
+        "Pause recording",
+        "Switch scene",
+        "Mute a source",
+        "Show or hide a source",
+        "Replay buffer",
+        "Save replay",
+        "Viewers",
+        "Followers",
+        "Live chat",
+        "Make a clip",
+        "Stream marker",
+        "Run an ad",
+        "Slow mode",
+        "Emote-only chat",
+        "Send a chat message",
+        "Set stream title",
+        "Live chat"
+      ],
+      "settings": [
+        "Check OBS",
+        "Sign in to Twitch",
+        "Check YouTube chat",
+        "Sign out of Twitch",
+        "YouTube channel",
+        "Twitch chat to show",
+        "OBS computer (only if OBS is on another PC)",
+        "OBS password (only if OBS is on another PC)",
+        "OBS port (only if OBS is on another PC)"
+      ],
+      "needs": [
+        "OBS Studio 28 or newer, for the OBS keys",
+        "A Twitch account, for the Twitch keys"
+      ],
+      "file": "minnion_streaming-0.2.0.mdplugin",
+      "size": 1507114,
+      "sha256": "335256e922d1287e3e372776b60f424da819f54398455c6e2a4faa5c147726ad",
+      "versions": [
+        {
+          "v": "0.2.0",
+          "size": 1507114,
+          "sha256": "335256e922d1287e3e372776b60f424da819f54398455c6e2a4faa5c147726ad"
+        }
+      ],
+      "profile": {
+        "name": "Streaming",
+        "file": "Streaming.mdprofile",
+        "pages": 3,
+        "size": 6935,
+        "sha256": "cafc431914c8eb74175aedafbe2f21dc19ad530c95edd209e40d925a28396ea0",
+        "choices": [
+          {
+            "id": "obs",
+            "label": "OBS Studio"
+          },
+          {
+            "id": "twitch",
+            "label": "Twitch"
+          },
+          {
+            "id": "youtube",
+            "label": "YouTube"
+          }
+        ],
+        "choose": "What do you stream with?"
       }
     },
     {
