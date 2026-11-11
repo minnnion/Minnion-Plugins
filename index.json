@@ -261,7 +261,7 @@
     {
       "id": "minnion_streaming",
       "name": "Streaming",
-      "version": "0.2.0",
+      "version": "0.1.0",
       "api": 2,
       "category": "streaming",
       "official": true,
@@ -332,14 +332,14 @@
         "OBS Studio 28 or newer, for the OBS keys",
         "A Twitch account, for the Twitch keys"
       ],
-      "file": "minnion_streaming-0.2.0.mdplugin",
-      "size": 1507114,
-      "sha256": "335256e922d1287e3e372776b60f424da819f54398455c6e2a4faa5c147726ad",
+      "file": "minnion_streaming-0.1.0.mdplugin",
+      "size": 1507271,
+      "sha256": "2bfbfa4a55921c845ca82298ad1e91427b6a9f892f3bdf9a6924ffda6d1c779e",
       "versions": [
         {
-          "v": "0.2.0",
-          "size": 1507114,
-          "sha256": "335256e922d1287e3e372776b60f424da819f54398455c6e2a4faa5c147726ad"
+          "v": "0.1.0",
+          "size": 1507271,
+          "sha256": "2bfbfa4a55921c845ca82298ad1e91427b6a9f892f3bdf9a6924ffda6d1c779e"
         }
       ],
       "profile": {

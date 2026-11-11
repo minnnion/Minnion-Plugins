@@ -6,11 +6,11 @@ Go live, record, switch scenes, mute sources and save replays in OBS, with each 
 
 | | |
 |---|---|
-| **Version** | 0.2.0 |
+| **Version** | 0.1.0 |
 | **Category** | streaming |
 | **Author** | Minniondeck (signed by minnion) |
-| **File** | `minnion_streaming-0.2.0.mdplugin` (1.44 MB) |
-| **SHA-256** | `335256e922d1287e3e372776b60f424da819f54398455c6e2a4faa5c147726ad` |
+| **File** | `minnion_streaming-0.1.0.mdplugin` (1.44 MB) |
+| **SHA-256** | `2bfbfa4a55921c845ca82298ad1e91427b6a9f892f3bdf9a6924ffda6d1c779e` |
 | **Profile** | `Streaming.mdprofile` (3 pages) |
 
 ## Install
